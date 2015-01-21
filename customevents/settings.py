@@ -39,10 +39,12 @@ INSTALLED_APPS = (
     'django_extensions',
     'rest_framework',
     'apps',
-    'apps.organization',
-#    'apps.organization.season',
- #   'apps.organization.team',
-  #  'apps.organization.registrant',
+    'apps.eventmanager',
+    'apps.eventmanager.organization',
+    'apps.eventmanager.season',
+    'apps.eventmanager.team',
+    'apps.eventmanager.registrant',
+
 )
 
 MIDDLEWARE_CLASSES = (
